@@ -1,0 +1,478 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D98C0EA52769D838003D448B /* NetWork_USEER.docc in Sources */ = {isa = PBXBuildFile; fileRef = D98C0EA42769D838003D448B /* NetWork_USEER.docc */; };
+		D98C0EAB2769D838003D448B /* NetWork_USEER.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D98C0EA02769D838003D448B /* NetWork_USEER.framework */; };
+		D98C0EB02769D838003D448B /* NetWork_USEERTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D98C0EAF2769D838003D448B /* NetWork_USEERTests.m */; };
+		D98C0EB12769D838003D448B /* NetWork_USEER.h in Headers */ = {isa = PBXBuildFile; fileRef = D98C0EA32769D838003D448B /* NetWork_USEER.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D98C0EC02769D8F4003D448B /* TestViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = D98C0EBE2769D8F4003D448B /* TestViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D98C0EC12769D8F4003D448B /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D98C0EBF2769D8F4003D448B /* TestViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D98C0EAC2769D838003D448B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D98C0E972769D838003D448B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D98C0E9F2769D838003D448B;
+			remoteInfo = NetWork_USEER;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D98C0EA02769D838003D448B /* NetWork_USEER.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NetWork_USEER.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D98C0EA32769D838003D448B /* NetWork_USEER.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NetWork_USEER.h; sourceTree = "<group>"; };
+		D98C0EA42769D838003D448B /* NetWork_USEER.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = NetWork_USEER.docc; sourceTree = "<group>"; };
+		D98C0EAA2769D838003D448B /* NetWork_USEERTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NetWork_USEERTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D98C0EAF2769D838003D448B /* NetWork_USEERTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NetWork_USEERTests.m; sourceTree = "<group>"; };
+		D98C0EBE2769D8F4003D448B /* TestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		D98C0EBF2769D8F4003D448B /* TestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D98C0E9D2769D838003D448B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D98C0EA72769D838003D448B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D98C0EAB2769D838003D448B /* NetWork_USEER.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D98C0E962769D838003D448B = {
+			isa = PBXGroup;
+			children = (
+				D98C0EA22769D838003D448B /* NetWork_USEER */,
+				D98C0EAE2769D838003D448B /* NetWork_USEERTests */,
+				D98C0EA12769D838003D448B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D98C0EA12769D838003D448B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D98C0EA02769D838003D448B /* NetWork_USEER.framework */,
+				D98C0EAA2769D838003D448B /* NetWork_USEERTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D98C0EA22769D838003D448B /* NetWork_USEER */ = {
+			isa = PBXGroup;
+			children = (
+				D98C0EA32769D838003D448B /* NetWork_USEER.h */,
+				D98C0EBE2769D8F4003D448B /* TestViewController.h */,
+				D98C0EBF2769D8F4003D448B /* TestViewController.m */,
+				D98C0EA42769D838003D448B /* NetWork_USEER.docc */,
+			);
+			path = NetWork_USEER;
+			sourceTree = "<group>";
+		};
+		D98C0EAE2769D838003D448B /* NetWork_USEERTests */ = {
+			isa = PBXGroup;
+			children = (
+				D98C0EAF2769D838003D448B /* NetWork_USEERTests.m */,
+			);
+			path = NetWork_USEERTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		D98C0E9B2769D838003D448B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D98C0EB12769D838003D448B /* NetWork_USEER.h in Headers */,
+				D98C0EC02769D8F4003D448B /* TestViewController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		D98C0E9F2769D838003D448B /* NetWork_USEER */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D98C0EB42769D838003D448B /* Build configuration list for PBXNativeTarget "NetWork_USEER" */;
+			buildPhases = (
+				D98C0E9B2769D838003D448B /* Headers */,
+				D98C0E9C2769D838003D448B /* Sources */,
+				D98C0E9D2769D838003D448B /* Frameworks */,
+				D98C0E9E2769D838003D448B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NetWork_USEER;
+			productName = NetWork_USEER;
+			productReference = D98C0EA02769D838003D448B /* NetWork_USEER.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D98C0EA92769D838003D448B /* NetWork_USEERTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D98C0EB72769D838003D448B /* Build configuration list for PBXNativeTarget "NetWork_USEERTests" */;
+			buildPhases = (
+				D98C0EA62769D838003D448B /* Sources */,
+				D98C0EA72769D838003D448B /* Frameworks */,
+				D98C0EA82769D838003D448B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D98C0EAD2769D838003D448B /* PBXTargetDependency */,
+			);
+			name = NetWork_USEERTests;
+			productName = NetWork_USEERTests;
+			productReference = D98C0EAA2769D838003D448B /* NetWork_USEERTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D98C0E972769D838003D448B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					D98C0E9F2769D838003D448B = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					D98C0EA92769D838003D448B = {
+						CreatedOnToolsVersion = 13.1;
+					};
+				};
+			};
+			buildConfigurationList = D98C0E9A2769D838003D448B /* Build configuration list for PBXProject "NetWork_USEER" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D98C0E962769D838003D448B;
+			productRefGroup = D98C0EA12769D838003D448B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D98C0E9F2769D838003D448B /* NetWork_USEER */,
+				D98C0EA92769D838003D448B /* NetWork_USEERTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D98C0E9E2769D838003D448B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D98C0EA82769D838003D448B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D98C0E9C2769D838003D448B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D98C0EC12769D8F4003D448B /* TestViewController.m in Sources */,
+				D98C0EA52769D838003D448B /* NetWork_USEER.docc in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D98C0EA62769D838003D448B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D98C0EB02769D838003D448B /* NetWork_USEERTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D98C0EAD2769D838003D448B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D98C0E9F2769D838003D448B /* NetWork_USEER */;
+			targetProxy = D98C0EAC2769D838003D448B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D98C0EB22769D838003D448B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D98C0EB32769D838003D448B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D98C0EB52769D838003D448B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 73RR7ZL9W9;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ys.OkpRobot.cn.NetWork-USEER";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		D98C0EB62769D838003D448B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 73RR7ZL9W9;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ys.OkpRobot.cn.NetWork-USEER";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		D98C0EB82769D838003D448B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ys.OkpRobot.cn.NetWork-USEERTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D98C0EB92769D838003D448B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ys.OkpRobot.cn.NetWork-USEERTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D98C0E9A2769D838003D448B /* Build configuration list for PBXProject "NetWork_USEER" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D98C0EB22769D838003D448B /* Debug */,
+				D98C0EB32769D838003D448B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D98C0EB42769D838003D448B /* Build configuration list for PBXNativeTarget "NetWork_USEER" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D98C0EB52769D838003D448B /* Debug */,
+				D98C0EB62769D838003D448B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D98C0EB72769D838003D448B /* Build configuration list for PBXNativeTarget "NetWork_USEERTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D98C0EB82769D838003D448B /* Debug */,
+				D98C0EB92769D838003D448B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D98C0E972769D838003D448B /* Project object */;
+}
