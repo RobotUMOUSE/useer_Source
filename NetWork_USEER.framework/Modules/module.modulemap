@@ -1,0 +1,6 @@
+framework module NetWork_USEER {
+  umbrella header "NetWork_USEER.h"
+
+  export *
+  module * { export * }
+}
