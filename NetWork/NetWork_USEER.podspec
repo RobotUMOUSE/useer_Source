@@ -28,7 +28,7 @@ Pod::Spec.new do |spec|
     NetWork_USEER，网络组件
                    DESC
 
-  spec.homepage     = "http://EXAMPLE/NetWork_USEER"
+  spec.homepage     = "https://github.com/RobotUMOUSE/useer_Source"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -91,7 +91,7 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "NetWork/NetWork_USEER/*.framework"
+  spec.source_files  = "NetWork/*.framework"
 # spec.exclude_files = "Classes/Exclude"
 
   # spec.public_header_files = "Classes/**/*.h"
