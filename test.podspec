@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'test'
-  s.version          = '0.2.0'
+  s.version          = '0.2.2'
   s.summary          = 'test.'
 
 # This description is used to generate tags and improve search results.
@@ -30,7 +30,10 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '9.0'
 
-  s.source_files = 'test/test/Classes/**/*'
+  # s.source_files = 'test/test/Classes/**/*'
+  s.subspec 'test' do |t|
+        t.vendored_frameworks = 'test/framework/NetWork_USEER.framework'
+  end
   
   # s.resource_bundles = {
   #   'test' => ['test/Assets/*.png']
